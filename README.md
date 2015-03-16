@@ -1,5 +1,5 @@
 # Py-daemon
- Small program in python that monitor a specific daemon by its PID.
+ Small program in python that monitor a specific daemon by its PID, and that sends alert emails.
  
  How to:
 -----------
@@ -8,7 +8,7 @@ Step1:
 In the setup.sh, you need to change the default configuration.
 You need to change this variables:
 
->>> email="Google email"
+ 		email="Google email"
 		password="Google password"
 		your_email="your_mail"
 
