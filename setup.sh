@@ -4,7 +4,7 @@ email="Google email"
 password="Google password"
 your_email="your_mail"
 
-echo "The script installs and configure the python monitoring process"
+
 if [[ $EUID -ne 0 ]]; then
    echo -e "\033[31m[-] This script must be run as root. \033[0m"
    exit 1
