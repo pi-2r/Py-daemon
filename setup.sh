@@ -28,7 +28,7 @@ echo -e "\033[32m[+] Debian Update \033[0m"
 apt-get update 
 
 echo -e "\033[32m[+] Installation of the following packages: python-dev, python-pip, python-daemon, psutil \033[0m"
-apt-get install -y python-dev python-pip python-daemon 
+apt-get install -y python-dev python-pip python-daemon  python-argparse
 
 pip install psutil
 
