@@ -175,7 +175,7 @@ class Monitoring(object):
         self.stdout_path = '/dev/tty'
         self.stderr_path = '/dev/tty'
         self.pidfile_path =  '/tmp/'+self.pid_name
-        self.limit_fd = 1
+        self.limit_fd = 100
         self.sleep_time = 10
         self.pidfile_timeout = 5
         self.see_pid = pid
